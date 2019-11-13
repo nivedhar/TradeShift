@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+		<title>Triangle</title>
+		<meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="https://d5wfroyti11sa.cloudfront.net/prod/client/ts-12.3.5.min.css"/>
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="icon" href="../assets/images/favicon.png"/>
+    <script src="https://d5wfroyti11sa.cloudfront.net/prod/client/ts-12.3.5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../assets/js/index.js"></script>
+    <script src="../assets/js/triangle.js"></script>
+	</head>
+	<body>
+    <header>
+      <div class="brand">
+        <a href="#">
+          <img src="https://tradeshift.com/wp-content/themes/Tradeshift/img/brand/logo-black.png" alt="Tradeshift" width="180">
+        </a>
+      </div>
+    </header>
+		<main>
+      <h2>Get Type of the Triangle</h2>
+			<div class="formContainer">
+        <form data-ts="Form">
+        	<fieldset>
+            <label>
+        			<span>Enter the Side 1 length of the Triangle: </span>
+        			<input type="number" id="side1" class="side"/>
+        		</label>
+        	</fieldset>
+          <fieldset>
+            <label>
+        			<span>Enter the Side 2 length of the Triangle: </span>
+        			<input type="number" id="side2" class="side"/>
+        		</label>
+        	</fieldset>
+          <fieldset>
+            <label>
+        			<span>Enter the Side 3 length of the Triangle: </span>
+        			<input type="number" id="side3" class="side"/>
+        		</label>
+        	</fieldset>
+          <input type="submit" data-ts="Button" class="ts-primary" id="submitBtn"/>
+        </form>
+        <div>
+          <h5 id="result"></h5>
+        </div>
+			</div>
+		</main>
+	</body>
+</html>
